@@ -1,7 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.1.0</Version>
+    <Title>Tasker, simply task controller</Title>
+    <Description>Simple task manager, to control the maximum number of tasks that can be run asynchronously.</Description>
+    <Summary>
+      Simple task manager, to control the maximum number of tasks that can be run asynchronously.
+    </Summary>
+    <Copyright></Copyright>
+    <PackageTags>Task Manager, Async, thread control</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <license>MIT</license>
+    <PackageProjectUrl>https://github.com/aymns/Tasker</PackageProjectUrl>
+    <PackageLicenseUrl>https://spdx.org/licenses/MIT.html</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/aymns/Tasker</RepositoryUrl>
   </PropertyGroup>
-
 </Project>
